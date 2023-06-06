@@ -4,13 +4,20 @@
     "description": "Max 50 app rules and max 50 web domain rules within the Screen Time API’s ShieldSettings are not implemented fully, causing user to believe a schedule is enabled when it isn’t.\n\nAlthough the app will stop you if you try to enable a schedule that will start running instantly (already within scheduled time) and cause the amount of rules in the ManagedSettingsStore shield to reach its limits (apps, web domains, or both), it will not stop you if you enable a schedule while outside of its scheduled time but will hit the limit when the schedule automatically starts.\n\nThis is not a hard issue to solve, and a release with the fix will be coming soon. But in the mean time, please be careful with your rules to prevent the app breaking.",
     "name": "ShieldSettings Limit",
     "id": "A00001",
-    "submitted": "Jun 06, 2023"
+    "submitted": "Jun 05, 2023"
   },
   {
-    "submitted": "Jun 06, 2023",
+    "submitted": "Jun 05, 2023",
     "status": 2,
     "id": "A00002",
     "description": "Newly added schedules may experience bugs preventing them from being enabled, resulting the user being stuck on the “Executing” ProgressView screen.\n\nThe cause of this issue is unknown, but evidence suggest it is either due to unknown async function calls or persistence issues within the NSPersistentCloudKitContainer. \n\nA fix is in the works, and will be released ASAP. In the mean time, try restarting the app, and waiting for a little bit before retrying.",
     "name": "Unable to Enable"
+  },
+  {
+    "status": 2,
+    "description": "Running schedules and shortcuts may not block the full selection of rules chosen by the user.\n\nOftentimes, when this issue happens, only one category or all catecories of the selection will be correctly blocked, but everything else will be ignored. This cause of this issue is unknown.\n\nA fix is under development, but may take a while to be released. There is no known temporary fix.",
+    "name": "Incorrect ShieldSettings",
+    "id": "A00003",
+    "submitted": "Jun 06, 2023"
   },
 ]
