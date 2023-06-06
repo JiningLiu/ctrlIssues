@@ -6,4 +6,11 @@
     "id": "A00001",
     "submitted": "Jun 06, 2023"
   },
+  {
+    "submitted": "Jun 06, 2023",
+    "status": 2,
+    "id": "A00002",
+    "description": "Newly added schedules may experience bugs preventing them from being enabled, resulting the user being stuck on the “Executing” ProgressView screen.\n\nThe cause of this issue is unknown, but evidence suggest it is either due to unknown async function calls or persistence issues within the NSPersistentCloudKitContainer. \n\nA fix is in the works, and will be released ASAP. In the mean time, try restarting the app, and waiting for a little bit before retrying.",
+    "name": "Unable to Enable"
+  },
 ]
