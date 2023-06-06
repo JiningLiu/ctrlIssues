@@ -27,4 +27,11 @@
     "status": 5,
     "id": "C00001"
   },
+  {
+    "id": "A00004",
+    "submitted": "Jun 06, 2023",
+    "status": 4,
+    "name": "App Just Stops Working",
+    "description": "This issue was experienced, but isn’t confirmed to be a bug in the app yet, as it can be an iOS state management issue.\n\nAfter a set of interactions with the app, toggles, views, buttons, and other elements may stop working as expected, and can’t be fixed until a Scrren Time permission reset is done.\n\nThis issue will be monitored to confirm that the origin is from the app’s source code."
+  },
 ]
