@@ -1,37 +1,9 @@
 [
   {
-    "submitted":"June 5, 2023",
-    "id":"A00001",
-    "status": 0,
-    "name":"Test 1",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  },
-  {
-    "submitted":"June 6, 2023",
-    "id":"B00001",
-    "status": 1,
-    "name":"Test 2",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  },
-  {
-    "submitted":"June 7, 2023",
-    "id":"C00001",
-    "status": 2,
-    "name":"Test 3",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  },
-  {
-    "submitted":"June 8, 2023",
-    "id":"A00002",
     "status": 3,
-    "name":"Test 4",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  },
-  {
-    "submitted":"June 9, 2023",
-    "id":"A00003",
-    "status": 4,
-    "name":"Test 5",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "description": "Max 50 app rules and max 50 web domain rules within the Screen Time API’s ShieldSettings are not implemented fully, causing user to believe a schedule is enabled when it isn’t.\n\nAlthough the app will stop you if you try to enable a schedule that will start running instantly (already within scheduled time) and cause the amount of rules in the ManagedSettingsStore shield to reach its limits (apps, web domains, or both), it will not stop you if you enable a schedule while outside of its scheduled time but will hit the limit when the schedule automatically starts.\n\nThis is not a hard issue to solve, and a release with the fix will be coming soon. But in the mean time, please be careful with your rules to prevent the app breaking.",
+    "name": "ShieldSettings Limit",
+    "id": "A00001",
+    "submitted": "Jun 06, 2023"
   },
 ]
