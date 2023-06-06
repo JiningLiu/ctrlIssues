@@ -20,4 +20,11 @@
     "id": "A00003",
     "submitted": "Jun 06, 2023"
   },
+  {
+    "submitted": "Jun 06, 2023",
+    "description": "This is an unverified issue, and is based purely on assumptions.\n\nThe different date systems used by Swift language (SwiftUI framework) and the Screen Time API may cause issues when starting, ending, modifying, and creating schedules and shortcuts. ",
+    "name": "Incorrect Schedule Times",
+    "status": 5,
+    "id": "C00001"
+  },
 ]
