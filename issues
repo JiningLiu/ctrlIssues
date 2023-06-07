@@ -15,7 +15,7 @@
   },
   {
     "status": 5,
-    "description": "UPDATE: \nThis issue seems to be a data management problem that was caused by the system, and doesn't seem to be able to be reproduced outside of debug mode. (Jun 7, 2023) \n\nRunning schedules and shortcuts may not block the full selection of rules chosen by the user.\n\nOftentimes, when this issue happens, only one category or all catecories of the selection will be correctly blocked, but everything else will be ignored. This cause of this issue is unknown.\n\nA fix is under development, but may take a while to be released. There is no known temporary fix.",
+    "description": "UPDATE: \nThis issue seems to be a data management problem that was caused by the system, and doesn't seem to be able to be reproduced outside of debug mode. (Jun 07, 2023) \n\nRunning schedules and shortcuts may not block the full selection of rules chosen by the user.\n\nOftentimes, when this issue happens, only one category or all catecories of the selection will be correctly blocked, but everything else will be ignored. This cause of this issue is unknown.\n\nA fix is under development, but may take a while to be released. There is no known temporary fix.",
     "name": "Incorrect ShieldSettings",
     "id": "A00003",
     "submitted": "Jun 06, 2023"
@@ -32,7 +32,7 @@
     "submitted": "Jun 06, 2023",
     "status": 0,
     "name": "App Just Stops Working",
-    "description": "UPDATE: \nFixed on Jun 7, 2023. \n\nThis issue was experienced, but isn’t confirmed to be a bug in the app yet, as it can be an iOS state management issue.\n\nAfter a set of interactions with the app, toggles, views, buttons, and other elements may stop working as expected, and can’t be fixed until a Scrren Time permission reset is done.\n\nThis issue will be monitored to confirm that the origin is from the app’s source code."
+    "description": "UPDATE: \nFixed on Jun 07, 2023. \n\nThis issue was experienced, but isn’t confirmed to be a bug in the app yet, as it can be an iOS state management issue.\n\nAfter a set of interactions with the app, toggles, views, buttons, and other elements may stop working as expected, and can’t be fixed until a Scrren Time permission reset is done.\n\nThis issue will be monitored to confirm that the origin is from the app’s source code."
   },
   {
     "name": "User can choose time range under 15 minutes",
