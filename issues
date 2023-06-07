@@ -1,7 +1,7 @@
 [
   {
     "status": 3,
-    "description": "Max 50 app rules and max 50 web domain rules within the Screen Time API’s ShieldSettings are not implemented fully, causing user to believe a schedule is enabled when it isn’t.\n\nAlthough the app will stop you if you try to enable a schedule that will start running instantly (already within scheduled time) and cause the amount of rules in the ManagedSettingsStore shield to reach its limits (apps, web domains, or both), it will not stop you if you enable a schedule while outside of its scheduled time but will hit the limit when the schedule automatically starts.\n\nThis is not a hard issue to solve, and a release with the fix will be coming soon. But in the mean time, please be careful with your rules to prevent the app breaking.",
+    "description": "Max 50 app rules and max 50 web domain rules within the Screen Time API’s ShieldSettings are not implemented fully, causing user to believe a schedule is enabled when it isn’t.\n\nAlthough the app will stop you if you try to enable a schedule that will start running instantly (already within scheduled time) and cause the amount of rules in the ManagedSettingsStore shield to reach its limits (apps, web domains, or both), it will not stop you if you enable a schedule while outside of its scheduled time but will hit the limit when the schedule automatically starts.\n\nThis may take a while to solve due to the different systems and APIs used, but a release with the fix will be ASAP. In the mean time, please be careful with your rules to prevent the app breaking. \n\nIf this is happening to you, disable all shortcuts and schedules. If the issue persists, revoke access of Screen Time controls in the Settings app and restart the app.",
     "name": "ShieldSettings Limit",
     "id": "A00001",
     "submitted": "Jun 05, 2023"
@@ -14,8 +14,8 @@
     "name": "Unable to Enable"
   },
   {
-    "status": 2,
-    "description": "Running schedules and shortcuts may not block the full selection of rules chosen by the user.\n\nOftentimes, when this issue happens, only one category or all catecories of the selection will be correctly blocked, but everything else will be ignored. This cause of this issue is unknown.\n\nA fix is under development, but may take a while to be released. There is no known temporary fix.",
+    "status": 5,
+    "description": "UPDATE: \nThis issue seems to be a data management problem that was caused by the system, and doesn't seem to be able to be reproduced outside of debug mode. (Jun 7, 2023) \n\nRunning schedules and shortcuts may not block the full selection of rules chosen by the user.\n\nOftentimes, when this issue happens, only one category or all catecories of the selection will be correctly blocked, but everything else will be ignored. This cause of this issue is unknown.\n\nA fix is under development, but may take a while to be released. There is no known temporary fix.",
     "name": "Incorrect ShieldSettings",
     "id": "A00003",
     "submitted": "Jun 06, 2023"
@@ -30,8 +30,8 @@
   {
     "id": "A00004",
     "submitted": "Jun 06, 2023",
-    "status": 4,
+    "status": 0,
     "name": "App Just Stops Working",
-    "description": "This issue was experienced, but isn’t confirmed to be a bug in the app yet, as it can be an iOS state management issue.\n\nAfter a set of interactions with the app, toggles, views, buttons, and other elements may stop working as expected, and can’t be fixed until a Scrren Time permission reset is done.\n\nThis issue will be monitored to confirm that the origin is from the app’s source code."
+    "description": "UPDATE: \nFixed on Jun 7, 2023. \n\nThis issue was experienced, but isn’t confirmed to be a bug in the app yet, as it can be an iOS state management issue.\n\nAfter a set of interactions with the app, toggles, views, buttons, and other elements may stop working as expected, and can’t be fixed until a Scrren Time permission reset is done.\n\nThis issue will be monitored to confirm that the origin is from the app’s source code."
   },
 ]
