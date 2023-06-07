@@ -34,4 +34,11 @@
     "name": "App Just Stops Working",
     "description": "UPDATE: \nFixed on Jun 7, 2023. \n\nThis issue was experienced, but isn’t confirmed to be a bug in the app yet, as it can be an iOS state management issue.\n\nAfter a set of interactions with the app, toggles, views, buttons, and other elements may stop working as expected, and can’t be fixed until a Scrren Time permission reset is done.\n\nThis issue will be monitored to confirm that the origin is from the app’s source code."
   },
+  {
+    "name": "User can choose time range under 15 minutes",
+    "description": "If users choose a time frame over the 12:00 AM time frame (i.e. 11:50 PM -> 12:00 AM) for less than 15 minutes, the app will proceed and consider the time frame as legal, but in reality it isn’t.\n\nThis will be fixed soon. In the mean time, please avoid selecting this range of time.",
+    "submitted": "Jun 07, 2023",
+    "id": "A00005",
+    "status": 3
+  },
 ]
