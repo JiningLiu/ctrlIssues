@@ -41,4 +41,11 @@
     "id": "A00005",
     "status": 3
   },
+  {
+    "name": "Accessibility",
+    "id": "A00006",
+    "description": "If you set the font size to a, well, very large font size, the app will… struggle. You’ll see what I mean when you try to increase the font size. \n\nI don’t plan on fixing this until we are close to the first actual stable release, so sorry abbout that…",
+    "submitted": "Jun 12, 2023",
+    "status": 3
+  },
 ]
