@@ -15,7 +15,7 @@
   },
   {
     "status": 5,
-    "description": "UPDATE: \nThis issue seems to be a data management problem that was caused by the system, and doesn't seem to be able to be reproduced outside of debug mode. (Jun 07, 2023) \n\nRunning schedules and shortcuts may not block the full selection of rules chosen by the user.\n\nOftentimes, when this issue happens, only one category or all catecories of the selection will be correctly blocked, but everything else will be ignored. This cause of this issue is unknown.\n\nA fix is under development, but may take a while to be released. There is no known temporary fix.",
+    "description": "UPDATE 2: \nI blame Apple. Issue dismissed. (Jun 14, 2023)\n\nUPDATE 1: \nThis issue seems to be a data management problem that was caused by the system, and doesn't seem to be able to be reproduced outside of debug mode. (Jun 07, 2023)\n\nRunning schedules and shortcuts may not block the full selection of rules chosen by the user.\n\nOftentimes, when this issue happens, only one category or all catecories of the selection will be correctly blocked, but everything else will be ignored. This cause of this issue is unknown.\n\nA fix is under development, but may take a while to be released. There is no known temporary fix.",
     "name": "Incorrect ShieldSettings",
     "id": "A00003",
     "submitted": "Jun 06, 2023"
