@@ -8,9 +8,9 @@
   },
   {
     "submitted": "Jun 05, 2023",
-    "status": 0,
+    "status": 3,
     "id": "A00002",
-    "description": "UPDATE: No clue what happened, seems like promblem fixed itself. (Jun 14, 2023)\n\nNewly added schedules may experience bugs preventing them from being enabled, resulting the user being stuck on the “Executing” ProgressView screen.\n\nThe cause of this issue is unknown, but evidence suggest it is either due to unknown async function calls or persistence issues within the NSPersistentCloudKitContainer. \n\nThis also applies to shortcuts. \n\nA fix is in the works, and will be released ASAP. In the mean time, try restarting the app, and waiting for a little bit before retrying.",
+    "description": "UPDATE: Ok whatever the fuck is going on is making me go crazy. Sorry if you are encountering this problem. Blame Apple. (Jun 29, 2023)\n\nUPDATE: No clue what happened, seems like promblem fixed itself. (Jun 14, 2023)\n\nNewly added schedules may experience bugs preventing them from being enabled, resulting the user being stuck on the “Executing” ProgressView screen.\n\nThe cause of this issue is unknown, but evidence suggest it is either due to unknown async function calls or persistence issues within the NSPersistentCloudKitContainer. \n\nThis also applies to shortcuts. \n\nA fix is in the works, and will be released ASAP. In the mean time, try restarting the app, and waiting for a little bit before retrying.",
     "name": "Unable to Enable"
   },
   {
